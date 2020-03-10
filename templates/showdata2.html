@@ -9,6 +9,7 @@
     <!--script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script-->
     <!--script src='excelexportjs.js'></script-->
+    <title>artIoT 2</title>
     <script>
         function exportTableToExcel(tableID, filename = '') {
             var downloadLink;
@@ -46,32 +47,20 @@
 
 <body>
     <div>
-      <header>
-        <div class="collapse bg-primary" id="navbarHeader">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-white">About</h4>
-                <p class="text-white"> จัดทำขึ้นเพื่อการศึกษาในรายวิชาของคณะวิศวกรรมศาสตร์ </p>
-                <p class="text-white"> สาขาวิศวกรรมระบบเครื่องมือวัด </p>
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <h5 class="text-white h4">ArtIoT</h5>
+                <span class="text-muted">วัดค่าอุณหภูมิแสดงผลผ่านเว็บ จัดทำเพื่อการศึกษา</span>
               </div>
             </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <h2 class="text-center text-white">IoT เครื่องที่ 2</h2>
+            </nav>
           </div>
-        </div>
-        <div class="navbar navbar-dark bg-primary shadow-sm">
-          <div class="container d-flex justify-content-between">
-            <a href="/" class="navbar-brand d-flex align-items-center">
-              <strong>IoT</strong>
-            </a>
-            <h3 align='center'>
-                <div class="p-1 mb-1 bg-primary text-white">สถานะของโรงที่ {{no_page}}</div>
-          </h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
-      </header>
     </div>
 
     <div class="container">
