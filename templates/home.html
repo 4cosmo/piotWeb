@@ -9,7 +9,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/sign-in/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Favicons -->
-    <title>Focus</title>
+    <title>artIoT</title>
     <script>
       function timedRefresh(timeoutPeriod) {
           setTimeout("location.reload(true);", timeoutPeriod);
@@ -20,35 +20,22 @@
 
 <body>
     <div>
-        <header>
-            <div class="collapse bg-primary" id="navbarHeader">
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-8 col-md-7 py-4">
-                    <h4 class="text-white">About</h4>
-                    <p class="text-white"> จัดทำขึ้นเพื่อการศึกษาในรายวิชาของคณะวิศวกรรมศาสตร์ </p>
-                    <p class="text-white"> สาขาวิศวกรรมระบบเครื่องมือวัด </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="navbar navbar-dark bg-primary shadow-sm">
-              <div class="container d-flex justify-content-between">
-                <a href="/" class="navbar-brand d-flex align-items-center">
-                  <strong>IoT</strong>
-                </a>
-                <h3 align='center'>
-                  <div class="p-1 mb-1 bg-primary text-white"> หน้าแรก </div>
-              </h3>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              </div>
-            </div>
-          </header>
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">ArtIoT</h5>
+            <span class="text-muted">วัดค่าอุณหภูมิแสดงผลผ่านเว็บ จัดทำเพื่อการศึกษา</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
     </div>
     <div class="container">
-      <h1>IoT Smart farm</h1>
+
 
       <figure class="figure">
           <img src="static/img/1.jpg" class="figure-img img-fluid rounded" alt="..." width="366" height="300">
